@@ -11,5 +11,12 @@
 */
   "parserOptions": {
       "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/indent": "off"
+    /*"indent": ["error", 4],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4]*/
   }
 }
