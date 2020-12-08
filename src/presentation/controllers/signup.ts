@@ -13,7 +13,8 @@ export class SignUpController {
             return {
                 statusCode: 400,
                 body: new MissingParamError('email')
+            }
         }
+        throw new Error("Shouldn't be reachable")
     }
-  }
 }
